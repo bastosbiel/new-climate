@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Serviço - NEW CLIMATE </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>NEW CLIMATE - Agendamento de Serviço</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#agendar">Agendar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Na new climate, prestamos serviços especializados em manutenção e instalação de sistemas de refrigeração.
+                Agende seu serviço conosco e tenha a garantia de um trabalho profissional e eficiente.</p>
+        </div>
+    </section>
+
+    <section id="servicos" class="section">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Manutenção de Ar-Condicionado</li>
+                <li>Instalação de Sistemas de Refrigeração</li>
+                <li>Reparo de Equipamentos</li>
+                <li>Manutenção Preventiva</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="agendar" class="section">
+        <div class="container">
+            <h2>Agende seu Serviço</h2>
+            <p>Preencha o formulário abaixo para agendar o serviço de refrigeração que você precisa. Entraremos em
+                contato para confirmar o agendamento.</p>
+
+<form action="https://formspree.io/f/xxxxxxxx" method="POST">
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" required>
+
+    <label for="data">Data Preferencial:</label>
+    <input type="date" id="data" name="data" required>
+
+    <label for="horario">Horário Preferencial:</label>
+    <input type="time" id="horario" name="horario" required>
+
+    <label for="servico">Serviço Solicitado:</label>
+    <select id="servico" name="servico" required>
+        <option value="manutencao">Manutenção de Ar-Condicionado</option>
+        <option value="instalacao">Instalação de Sistema de Refrigeração</option>
+        <option value="reparo">Reparo de Equipamentos</option>
+        <option value="preventiva">Manutenção Preventiva</option>
+    </select>
+
+    <button type="submit">Agendar Serviço</button>
+     <footer>
+       
+        <div class="container">
+            <p>&copy; New Climate 2024 | Todos os direitos reservados</p>
+        </div>
+
+    </footer>
+</form>
+           
+</body>
+
+
+</html>
